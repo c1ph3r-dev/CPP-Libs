@@ -4,7 +4,7 @@
 namespace palindrome
 {
 
-    bool isPalindrome(std::vector<char>& word, bool consoleOutput = false)
+    bool IsPalindrome(std::vector<char>& word, bool consoleOutput = false)
     {
         const int wordSize = word.size();
 
