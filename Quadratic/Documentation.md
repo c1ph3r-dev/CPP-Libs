@@ -18,10 +18,10 @@ This struct contains two doubles that store the two root values of a quadratic e
 Roots CalcQuadratic(long long a, long long b, long long c)
 ```
 
-This function returns a Roots object that contains the two roots of the quadratic function entered.
+This function returns a Roots object that contains the two roots of the quadratic function entered.    
 a, b and c represent the values in a quadratic equation: ax^2 + bx + c.
 
-The output of the function should be stored in a Roots object example:
+The output of the function should be stored in a Roots object, example:
 
 ``` cpp
 long long a = 1, b = 2, c = 3;
