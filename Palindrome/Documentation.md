@@ -1,5 +1,5 @@
 # Palindrome
-The function in this header file use the `palindrome::` namespace.
+The function in this header file uses the `palindrome::` namespace.
 
 ``` cpp
 bool IsPalindrome(std::vector<char>& word, bool consoleOutput)
