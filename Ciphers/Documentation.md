@@ -1,4 +1,6 @@
 # Ciphers
+**IMPORTANT** This library was built in 32-bit on Visual Studios 2019
+
 All functions and the enum class in this library use the `ciphers::` namespace.
 
 ## Section 1 - Enum Class
