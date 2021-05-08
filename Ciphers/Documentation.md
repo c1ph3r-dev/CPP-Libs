@@ -10,7 +10,7 @@ The enum class contains two components: `e_Chocie::ENCODE` and `e_Chocie::DECODE
 The `Caeser()` function has two overrides with the **only** difference being the output destination of the result.
 
 ``` cpp
-Caeser(std::vector<char> inputText, std::vector<char>& output, short shift, e_Choice choice)
+void Caeser(std::vector<char> inputText, std::vector<char>& output, short shift, e_Choice choice)
 ```
 
 #### inputText
@@ -28,7 +28,7 @@ This tells the function whether you are encoding or decoding the input text and 
 This defaults to `e_Choice::ENCODE` when not specified.
 
 ``` cpp
-Caeser(std::vector<char> inputText, std::ofstream& output, short shift, e_Choice choice)
+void Caeser(std::vector<char> inputText, std::ofstream& output, short shift, e_Choice choice)
 ```
 
 #### inputText
@@ -50,7 +50,7 @@ This defaults to `e_Choice::ENCODE` when not specified.
 The `Vigenere()` function has two overrides with the **only** difference being the output destination of the result.
 
 ``` cpp
-Vigenere(std::vector<char> inputText, std::vector<char>& output, std::vector<char> shift, e_Choice choice)
+void Vigenere(std::vector<char> inputText, std::vector<char>& output, std::vector<char> shift, e_Choice choice)
 ```
 
 #### inputText
@@ -67,7 +67,7 @@ This tells the function whether you are encoding or decoding the input text and 
 This defaults to `e_Choice::ENCODE` when not specified.
 
 ``` cpp
-Vigenere(std::vector<char> inputText, std::ofstream& output, std::vector<char> shift, e_Choice choice)
+void Vigenere(std::vector<char> inputText, std::ofstream& output, std::vector<char> shift, e_Choice choice)
 ```
 
 #### inputText
