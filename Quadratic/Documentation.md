@@ -13,7 +13,7 @@ struct Roots
 The output of the `CalcQuadratic()` function is a Roots object.
 The function is expected to be used as such:
 
-`quadratic::Roots roots = CalcQuadratic(a, b, c);`
+`quadratic::Roots roots = quadratic::CalcQuadratic(a, b, c);`
 
 ## Section 2 - Function
 
