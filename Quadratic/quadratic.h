@@ -11,18 +11,20 @@ namespace quadratic
 		double x1, x2;
 	};
 
+	std::ostream& operator<<(std::ostream& os, Roots &root)
+	{
+		return std::cout << "x1: " << root.x1 << ", x2: " << root.x2;
+	}
+
 	Roots CalcQuadratic(long long a, long long b, long long c)
 	{
-		Roots root;
+		Roots root{};
 
-		double temp, x1, x2;
-		temp = std::sqrt((b * b) - (4 * a * c));
+		double temp = std::sqrt((b * b) - (4 * a * c));
 
-		x1 = ((-1 * b) - temp) / (2 * a);
-		x2 = ((-1 * b) + temp) / (2 * a);
+		root.x1 = ((-1 * b) - temp) / (2 * a);
+		root.x2 = ((-1 * b) + temp) / (2 * a);
 
-		root.x1 = x1;
-		root.x2 = x2;
 		return root;
 	}
 }
