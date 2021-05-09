@@ -21,7 +21,6 @@ namespace palindrome
 
         for (int i = 0, j = wordSize - 1; i <= mid && j >= mid; i++, j--)
         {
-            std::cout << "For loop is running\n";
             if (i == j)
             {
                 check = true; break;
