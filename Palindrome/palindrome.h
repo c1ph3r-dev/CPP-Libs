@@ -7,8 +7,9 @@ namespace palindrome
     bool IsPalindrome(std::vector<char>& word, bool consoleOutput = false)
     {
         const int wordSize = word.size();
+        bool check{ true };
 
-        int mid = 0;
+        int mid{};
         if (wordSize % 2 == 0)
         {
             mid = wordSize / 2;
@@ -18,10 +19,9 @@ namespace palindrome
             mid = (wordSize + 1) / 2;
         }
 
-        bool check = false;
-
         for (int i = 0, j = wordSize - 1; i <= mid && j >= mid; i++, j--)
         {
+            std::cout << "For loop is running\n";
             if (i == j)
             {
                 check = true; break;
@@ -31,11 +31,12 @@ namespace palindrome
             {
                 check = false; break;
             }
+
         }
 
         if (consoleOutput)
         {
-            for (int i = 0; i < word.size() - 1; i++)
+            for (int i = 0; i < word.size(); i++)
             {
                 std::cout << word[i];
             }
