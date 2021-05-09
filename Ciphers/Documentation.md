@@ -38,7 +38,7 @@ This is a char vector containing the text that you wish to encode or decode.
 
 #### output
 This is a reference to an ofstream object in which the encoded/decoded message will be written.
-**IMPORTANT:** The file must be opened outside of the function as the function does **NOT** open the file.
+**IMPORTANT:** The file must be opened outside of the function as the function does **NOT** open the file. If not opened the function will throw a runtime error.
 
 #### shift
 This is a short that tells the function what shift (*or key*) to use when encoding (*or that was used when decoding*).
@@ -77,7 +77,7 @@ This is a char vector containing the text that you wish to encode or decode.
 
 #### output
 This is a reference to an ofstream object in which the encoded/decoded message will be written.
-**IMPORTANT:** The file must be opened outside of the function as the function does **NOT** open the file.
+**IMPORTANT:** The file must be opened outside of the function as the function does **NOT** open the file. If not opened the function will throw a runtime error.
 
 #### shift
 This is a char vector containing the word/phrase you wish to use when encoding (*or that was used when decoding*).
@@ -108,4 +108,4 @@ This is a char vector containing the text that you wish to encode or decode.
 
 #### output
 This is a reference to an ofstream object in which the encoded/decoded message will be written.
-**IMPORTANT:** The file must be opened outside of the function as the function does **NOT** open the file.
+**IMPORTANT:** The file must be opened outside of the function as the function does **NOT** open the file. If not opened the function will throw a runtime error.
