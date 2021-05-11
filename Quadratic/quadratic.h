@@ -9,6 +9,8 @@ namespace quadratic
 	struct Roots
 	{
 		double x1, x2;
+
+		friend std::ostream& operator<<(std::ostream& os, Roots& root);
 	};
 
 	std::ostream& operator<<(std::ostream& os, Roots &root)
