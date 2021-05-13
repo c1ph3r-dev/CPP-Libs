@@ -1,9 +1,9 @@
 # CPP-Libs
-A repository of all my custom C++ Libraries and Include Header Files
+A repository of my custom Include Header Files
 
+My C++ Libraries are located in the Source Code repo for that specific Library:
 [Ciphers Source Code](https://github.com/c1ph3r-dev/Ciphers-Source-Code)
 
 ## Documentation
-* [Ciphers](https://github.com/c1ph3r-dev/CPP-Libs/blob/main/Ciphers/Documentation.md)
 * [Palindrome](https://github.com/c1ph3r-dev/CPP-Libs/blob/main/Palindrome/Documentation.md)
 * [Quadratic](https://github.com/c1ph3r-dev/CPP-Libs/blob/main/Quadratic/Documentation.md)
