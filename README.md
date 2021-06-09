@@ -9,8 +9,8 @@ My C++ Libraries are located in the Source Code repo for that specific Library:
 ### [Headers](https://github.com/c1ph3r-dev/CPP-Libs-And-Headers/releases)
 
 ### Libraries
-[Ciphers](https://github.com/c1ph3r-dev/Ciphers/releases)
-[Enigma Machine](https://github.com/c1ph3r-dev/Enigma/releases)
+* [Ciphers](https://github.com/c1ph3r-dev/Ciphers/releases)
+* [Enigma Machine](https://github.com/c1ph3r-dev/Enigma/releases)
 
 ## Documentation
 * [Palindrome](https://github.com/c1ph3r-dev/CPP-Libs/blob/main/Palindrome/Documentation.md)
